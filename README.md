@@ -37,7 +37,7 @@ This will download CIFAR-10 and organize images into the `cifar10_images` folder
 ```
 cifar10_images/
   airplane/
-    img1.png
+    1.png
     ...
   automobile/
     ...
