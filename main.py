@@ -98,7 +98,7 @@ torch.save(model.state_dict(), "model.pth")
 
 if __name__ == "__main__":
     
-    while input("again? (y/n): ") == "y":
+    while input("generate? (y/n): ") == "y":
         labels = input("Enter labels (0-9) separated by spaces: ")
         labels = torch.tensor([int(label) for label in labels.split()])
 
