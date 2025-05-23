@@ -74,7 +74,7 @@ model = SimpleCNN()
 
 if input("train model? (y/n): ") == "y":
     trainer = pl.Trainer(
-        max_epochs=20,
+        max_epochs=10,
         accelerator='auto',
         devices='auto'
     )
