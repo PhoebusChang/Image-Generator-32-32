@@ -82,8 +82,3 @@ The generated images will be saved as `generated.png`.
 
 - The model outputs images in the range `[-1, 1]` and saves them normalized to `[0, 1]`.
 - For best results, train for several epochs.
-
----
-
-**Author:**  
-Your Name Here
